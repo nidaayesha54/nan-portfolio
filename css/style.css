@@ -36,8 +36,8 @@ nav.scrolled{background:rgba(5,5,5,.88);backdrop-filter:blur(14px);box-shadow:0 
 #burger span{display:block;width:26px;height:2px;background:var(--gold);margin:6px 0}
 
 /* Hero */
-.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:url('../images/hero-studio.jpg') center/cover no-repeat #000}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(105deg,rgba(0,0,0,.92) 20%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.25))}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:url('../images/hero-studio.jpg') center/cover no-repeat #022016}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(105deg,rgba(2,32,22,.93) 20%,rgba(2,32,22,.58) 55%,rgba(2,32,22,.28))}
 .hero-inner{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:140px 24px 90px;width:100%}
 .kicker{color:var(--gold);letter-spacing:5px;font-size:12px;text-transform:uppercase;margin-bottom:22px}
 .hero h1{font-family:var(--serif);font-size:clamp(42px,7vw,88px);line-height:1.08;font-weight:700}
